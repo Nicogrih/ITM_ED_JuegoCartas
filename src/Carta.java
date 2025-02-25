@@ -15,11 +15,11 @@ public class Carta
         return Indice;
     }
         
-    public Pinta gePinta()
+    public Pinta getPinta()
     {
         if (Indice<=13)
         {
-         return Pinta.TREBOL;
+            return Pinta.TREBOL;
         }else if (Indice <=26) {
             return Pinta.PICA;
         }else if (Indice<=39) {
